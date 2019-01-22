@@ -1,24 +1,77 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Наша семья!!!</title>
-<style>
-   h1 {    font-family: cursive;
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
 
-    color: navy; /* Цвет символа */
-    font-size: 200%; /* Размер шрифта */
-   } h2 {color: black; /* Цвет символа */
-    font-size: 150%; /* Размер шрифта */
-   }
-   p {
-    color: navy; /* Цвет текста */
-   }
-  </style>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <title>Полгода</title>
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/front.css" media="all" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie.css" />
+    <script type="text/javascript" src="js/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('.pngfix'); </script>
+    <![endif]--> 
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.innerfade.js"></script>
+    
+    <script type="text/javascript">
+       $(document).ready(
+                function(){
+                    $('#fade').innerfade({
+                        animationtype: 'fade',
+                        speed: 'slow',
+                        timeout: 2000,
+                        type: 'sequence',
+                        containerheight: '261px',
+                        runningclass: 'innerfade'
+                    });          
+            });
+      </script>
 </head>
-<body bgcolor="#AFEEEE" ><center><h1>
-Это сайт о создании нашей маленькой семьи!
-</h1></center>
-<h2>Наш первый отдых и знакомство с моей семьей!!!:</h2><p><img align="left" src="img/1.jpg" height="400" alt="Это мы">оарпуопрловмиим</p>
+
+<body class="front">
+<div id="container">
+    <div id="header">
+        <div id="navigation">  
+           
+        </div><!--End navigation -->
+    </div><!--End header -->
+    
+    <div id="primary">
+        <div class="scroller">
+                <ul id="fade">
+                    <li><img src="files/slider-1.jpg" alt="First Scroller Image" /></li>
+					<li><img src="files/slider-4.jpg" alt="Third Scroller Image" /></li> 
+                    <li><img src="files/slider-2.jpg" alt="Second Scroller Image" /></li> 
+                    <li><img src="files/slider-3.jpg" alt="Third Scroller Image" /></li> 
+                </ul>
+        </div><!--End scroller-->
+        <div class="feature-content">
+            <h3>&#187; Поздравление</h3>
+            <h1><a href="#">21.01.2019</a></h1>
+<p class="subhead">Полгода — срок, конечно, небольшой,</p>
+<p class="subhead">Но пусть он будет первым юбилеем.</p>
+<p class="subhead">Ведь нам так хорошо вдвоем,</p>
+<p class="subhead">Я ни о чём, что было, не жалею.</p>
+<p class="subhead">Наверно, мы с тобой нашли любовь,</p>
+<p class="subhead">Я всей душою в наше счастье верю.</p>
+<p class="subhead">Мне хочется, чтоб мы с тобой вдвоем</p>
+<p class="subhead">Отпраздновали сотни юбилеев.</p>
+<p class="subhead">Чтоб счастьем наполнялся дом,</p>
+<p class="subhead">А для любви всегда были открыты двери.</p>
+        </div><!--End feature-content -->
+    </div><!--End primary -->
+    
+    <div class="clear-block"></div>
+    
+    <div id="bottom-container"></div><!--End bottom-container-->
+    
+    <div id="footer">
+        <p><b>Copyright &copy; Создан в порыве чувств в 2019 г.</b></p>
+    </div><!--End footer -->
+</div> <!--End container -->
 </body>
+
 </html>
